@@ -7,13 +7,13 @@ Sales report of northwind dataset using visual analytics with powerbi as the ana
 # Dataset Upload
 The dataset was imported into powerbi using the database connection by providing sql credentials (database-name, password, servername).
 
-#Creating of New Measures
+# Creating of New Measures
 New measures were created to count and sum relevant columns.
 Total Sales = SUMX('northwind orderdetails', 'northwind orderdetails'[Quantity] * LOOKUPVALUE('northwind products'[Price], 'northwind products'[ProductID], 'northwind orderdetails'[ProductID]))
 No. of orders = COUNT('northwind orderdetails'[OrderID])
 No. of customers = DISTINCTCOUNT('northwind customers'[CustomerName]).... amongst others.
 
-#Creating of Calculated Tables
+# Creating of Calculated Tables
 New tables were created to evaluate top performers and products.
 Top 10 Suppliers = 
 VAR topsuppliers = 
