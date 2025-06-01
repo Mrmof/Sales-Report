@@ -53,7 +53,7 @@ VAR top10 =
     TOPN(10, addCategory, [Sales amount], DESC)
 RETURN top10
 
-#Analysis
+# Analysis
 ![sales report-images-0](https://github.com/user-attachments/assets/b7c8c97a-cf02-46a3-b41c-6ae3b0cde464)
 ![sales report-images-1](https://github.com/user-attachments/assets/bd4a45af-8ef8-400e-b66d-6990a3462420)
 ![sales report-images-2](https://github.com/user-attachments/assets/7576e9fd-eb11-4180-8635-43ca51fcda63)
